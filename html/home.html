@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css file connected  -->
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../color/color1.css">
+<!-- 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/694a00980e.js" crossorigin="anonymous"></script>
+
+
+   
+    <title>Amarjeet kumar</title>
+</head>
+<body>
+
+    <div class="main_containt">
+
+        <!-- ===== Aside Start ===== -->
+    <div class="aside">
+        <div class="logo">
+          <a href="#"><span>P</span>ortfolio</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="./about.html"><i class="fa fa-user"></i> About</a></li>
+          <li><a href="./education.html"><i class="fa-solid fa-graduation-cap"></i></i>Education</a></li>
+          <li><a href="./skils.html"><i class="fa fa-list"></i>Skills</a></li>
+          <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Projects</a></li>
+          <li><a href="./contact.html"><i class="fa fa-comments"></i>Contact</a></li>
+        </ul>
+      </div>
+      <!-- ===== Aside End ===== -->
+
+  <!-- ===== Home Section Start ===== -->
+      <section class="home active section right_section" id="home">
+        <div class="container">
+          <div class="row" id="heroimgrevv">
+            <div class="home-info padd-15">
+              <h3 class="hello">Hello, my name is <br /> <span class="name">Amarjeet Kumar</span></h3>
+              <h3 class="my-profession">I' m a <span class="typing"></span></h3>
+              <div class="introdu">Passionate Front End Developer with a
+                specialization in React.
+                Skilled, collaborative and
+                attentive developer with a drive
+                to develop the most relevant
+                products. Always looking
+                forward to learning something
+                new to strengthen skills learned.
+              </div>
+              <div class="home__icon_cont">
+                <a href="https://github.com/amarjeetk123" target="_blank">
+                  <div class="icon"><i class="fab fa-github"></i></div>
+                </a>
+                <a href="https://www.linkedin.com/in/amarjeet-kumar" target="_blank">
+                  <div class="icon"><i class="fab fa-linkedin"></i></div>
+                </a>
+                <a href="mailto:ak123del@gmail.com" target="_blank">
+                  <div class="icon"><i class="fa fa-envelope"></i></div>
+                  <!-- <a href="https://wa.me/6299170174" target="_blank">
+                    <div class="icon"><i class="fas fa-mobile-alt"></i></div> -->
+              </div>
+
+              <!-- Resume section  -->
+              <a href="#"
+                target="_blank" class="btn">Resume</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="../images/my_image.jpg" alt="mypic">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+    
+
+    <script src="../js/color_swither.js"></script>
+    <script src="../js/home.js"></script>
+
+    <!-- this script link is for typed animation  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".typing",{
+    strings:["","Front End Developer","React Developer"],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true
+})
+    </script>
+</body>
+</html>
