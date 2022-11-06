@@ -55,21 +55,6 @@ body{
     z-index: 10;
     transition: all 0.3s ease;
 }
-.aside{
-    width: 270px;
-    background: var(--bg-black-100);
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 30px;
-    height: 100%;
-    border-right: 2px solid var(--bg-black-50);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    transition: all 0.3s ease;
-}
 
 .aside .logo{
     position: absolute;
@@ -164,6 +149,7 @@ body{
     position: absolute;
     top: 6px;
     left: 0;
+  
 }
 .aside .nav-toggler.open span::after
 {
@@ -303,34 +289,29 @@ h3.my-profession
 
 
 
-.section
-{
+.section{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
     padding: 0 30px;
     opacity: 1;
-    /* position: fixed; */
-    left: 270px;
     margin-left:270px; 
-    top: 0;
-    right: 0;
-    bottom: 0;
+    
     z-index: 0;
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.3s ease;
    
 }
-.section.back-section
+/* .section.back-section
 {
     z-index: 1;
-}
+} */
 .section.active
 {
     z-index: 2;
     opacity: 1;
-    animation: slideSection 1s ease;
+    animation: slideSection 0.6s ease;
 }
 /* @keyframes slideSection
 {
@@ -448,5 +429,21 @@ h3.my-profession
     font-size: 20px;
 }
 
+.special{
+    /* padding-top: 100px; */
+    margin-top: 100px;
+}
 
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+body::-webkit-scrollbar-thumb{
+    background-color: var(--skin-color);
+    border-radius: 15px;
+}
+body::-webkit-scrollbar-track {
+    background: var(--text-black-700);
+    border-radius: 8px;
+  }
 
+ 
