@@ -1,0 +1,79 @@
+
+.margtop {
+    margin-top: 30px;
+}
+.EDUCATION {
+    background-color: var(--bg-black-100);
+    padding:20px 25px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    /* margin-top: 10px; */
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+
+.EDUCATION .edu {
+    color: var(--text-black-900);
+    font-weight: 600;
+    /* margin-bottom: 1rem; */
+}
+
+#mystyleimage{
+    margin-left: 35px;
+    /* margin-top:80px;
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-image: url("https://img.freepik.com/free-vector/education-horizontal-typography-banner-set-with-learning-knowledge-symbols-flat-illustration_1284-29493.jpg?size=626&ext=jpg&ga=GA1.2.1784279223.1653819023"); */
+}
+
+
+.EDUCATION .edu_cont {
+    /* margin-bottom: 10px; */
+    border: 5px solid var(--bg-black-900);
+    border-left: 4px solid var(--text-black-900);
+    padding-left: 14px;
+    margin-top: 30px;
+    width: 60%;
+    margin-left: 21%;
+    text-align: center;
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+    .EDUCATION .edu_cont:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+    transition-duration: 3s;
+    }
+
+@media  (max-width: 500px) {
+    .EDUCATION .edu_cont{
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+  }
+.eduupdate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.EDUCATION .edu_cont .course_ {
+    color: var(--text-black-700);
+    font-size: 18px;
+}
+.EDUCATION .edu_cont .institute{
+        font-size: 16px;
+    color: var(--text-black-700);
+
+}
+.EDUCATION .edu_cont .duration{
+    font-size: 14px;
+    color: var(--text-black-700);
+
+}
