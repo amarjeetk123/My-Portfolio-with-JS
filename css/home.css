@@ -447,3 +447,212 @@ body::-webkit-scrollbar-track {
   }
 
  
+
+  @media (max-width:1199px)
+  {
+      .section .container
+      {
+          padding-top: 70px;
+      }
+      .aside
+      {
+          left: -270px;
+      }
+      .aside.open 
+      {
+          left: 0;
+      }
+      .aside .nav-toggler
+      {
+          display: flex;
+          left: 30px;
+      }
+      .aside .nav-toggler.open 
+      {
+          left: 300px;
+      }
+      .section
+      {
+          left: 0;
+          margin-left: 0px;
+      }
+      .section.open 
+      {
+          left: 270px;
+      }
+      .about .about-content .personal-info .info-item p span 
+      {
+          display: block;
+          margin-left: 0;
+      }
+  }
+  @media (max-width:991px)
+  {
+      .contact .contact-info-item,
+      .portfolio .portfolio-item
+      {
+          flex: 0 0 50%;
+          max-width: 50%;
+      }
+      .project-name ~ span {
+          margin-left: 0px;
+      }
+      .home .home-info
+      {
+          flex: 0 0 100%;
+          max-width: 100%;
+      }
+     
+      .home .home-img
+      {
+          /* display: none; */
+          margin: auto;
+          margin-top: 50px;
+          max-width: 100%;
+      }
+      .home-img::before{
+          border-top: none;
+          border-left: none;
+      }
+      .home-img::after{
+          border-bottom: none;
+          border-right: none;
+      }
+      #heroimgrevv{
+          display: flex;
+          flex-direction: column-reverse;
+      }
+      .home-img img{
+          object-fit: cover;
+          width: 100%
+      }
+      .portfolio_main_div{
+          display: block;
+      }
+      .portfolio .portfolio-item-inner{
+          width: 100%;
+      }
+      .portfolio .portfolio-item-inner .portfolio-img > img
+      {
+          margin: 20px 20px;
+          border: 5px solid #4572ba;
+          width: 91%;
+          display: block;
+      }
+      .media{
+          padding-left: 20px;
+      }
+      .project-name ~ span {
+          padding-left: 10px;
+          padding-right: 50px;
+      }
+      .project-name ~ span > :nth-child(6) {
+          margin-right: 1px;
+      }
+  }
+
+  @media (max-width:767px)
+  {
+      .contact .contact-form .col-6,
+      .contact .contact-info-item,
+      .portfolio .portfolio-item,
+      .service .service-item,
+      .about .about-content .experience,
+      .about .about-content .education,
+      .about .about-content .skills,
+      .about .about-content .personal-info
+      {
+          flex: 0 0 100%;
+          max-width: 100%;
+      }
+      .eduupdate{
+          flex-direction: column;
+      }
+      .portImg{
+          padding-right: 20px;
+          margin-top: -5px;
+         
+      } 
+      .EDUCATION .edu_cont{
+          margin-top: 10px;
+          margin-left: 0px;
+          width: 100%;
+      }
+      .portfolio_main_div{
+          display: block;
+      }
+      .media{
+          padding-left: 20px;
+      }
+      .portfolio .portfolio-item-inner{
+          width: 100%;
+      }
+      .project-name ~ span {
+          padding-bottom: 30px;
+      }
+      .portfolio .portfolio-item-inner .portfolio-img > img
+      {
+          margin: 20px 10px;
+          border: 5px solid #4572ba;
+          width: 100%;
+          display: block;
+      } 
+  }
+  
+  
+  
+  .msg-pop-up{
+      background-color: #37b182;
+      font-weight: 700;
+      font-size: 16px;
+      width: 20%;
+      padding: 1.5%;
+      position: fixed;
+      right: 2%;
+      top: 2%;
+      z-index: 100;
+      border-radius: 5px;
+      text-align: center;
+      color: #fff;
+      display: none;
+      box-shadow: 5px 5px 5px rgba(48, 46, 77, 0.15);
+  }
+  .failed-msgpop{
+      background-color: #ec1839;
+      font-weight: 700;
+      font-size: 16px;
+      width: 20%;
+      padding: 1.5%;
+      position: fixed;
+      right: 2%;
+      top: 2%;
+      z-index: 100;
+      border-radius: 5px;
+      text-align: center;
+      color: #fff;
+      display: none;
+  }
+  
+  
+  @media (max-width:555px) {
+      .about___info{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+  
+  }   
+  .adjus {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      
+     
+  }
+  }
+  
+  @media (max-width:565px) {
+      h3.hello span {
+          font-size: 32px;
+          height: 160px;
+      }
+  }
