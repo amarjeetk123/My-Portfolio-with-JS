@@ -1,0 +1,103 @@
+#contact{
+    margin-top: 56px;
+}
+.contact-title
+{
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.contact-sub-title
+{
+    color: var(--text-black-900);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px 30px;
+}
+.contact .contact-info-item
+{
+    flex: 0 0 20%;
+    max-width: 25%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.row{
+    margin: 30px 0px 0px;
+}
+.contact .contact-info-item .icon
+{
+    display: inline-block;
+    color: var(--skin-color);
+    font-size: 45px;
+}
+
+
+.icon i:hover
+{
+    transform: scale(1.3);
+    color:fuchsia;
+    transition-duration: 2s;
+
+}
+.contact-info-item .icon .fa
+{
+    font-size: 25px;
+    color: var(--skin-color);
+}
+ .contact-info-item h4
+{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+.contact-info-item p
+{
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--text-black-700);
+    font-weight: 400;
+}
+ .contact-form
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contact-form .col-6
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+ .contact-form .col-12
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+ .contact-form .form-item
+{
+    margin-bottom: 30px;
+}
+ .form-item .form-control
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 18px;
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    padding: 10px 25px;
+    font-size: 20px;
+    color: var(--text-black-700);
+    transition: all 0.3s ease;
+}
+ .form-item .form-control:focus
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+ .form-item textarea.form-control
+{
+    height: 140px;
+}
