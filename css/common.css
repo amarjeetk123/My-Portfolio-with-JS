@@ -1,0 +1,314 @@
+
+
+/* code for color switcher is started from here  */
+
+.style-switcher
+{
+    position: fixed;
+    right: 0;
+    top: 60px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+.style-switcher.open
+{
+    transform: translateX(-25px);
+}
+.style-switcher .s-icon
+{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    right: 100%;
+    border: 1px solid var(--bg-black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.style-switcher .s-icon i
+{
+    line-height: 40px;
+}
+.style-switcher .style-switcher-toggler
+{
+    top: 0;
+}
+.style-switcher .day-night
+{
+    top: 55px;
+}
+.style-switcher h4
+{
+    margin: 0 0 10px;
+    color: var(--text-black-700);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.style-switcher .colors
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.style-switcher .colors span
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.style-switcher .color-1
+{
+    background:  #fa5b0f;
+    cursor: pointer;
+}
+.style-switcher .color-2
+{
+    background: #0cada5;
+    cursor: pointer;
+    
+}
+.style-switcher .color-3
+{
+    background: #37b182;
+    cursor: pointer;
+}
+.style-switcher .color-4
+{
+    background: #ada20c;
+    cursor: pointer;
+}
+.style-switcher .color-5
+{
+    background: #ec1839;
+    cursor: pointer;
+}
+
+/* code for color switcher is end here  */
+
+
+
+@media  (max-width: 500px) {
+    .portfolio .portfolio-item-inner .portfolio-img > img
+    {
+        margin: 10px 10px;
+        border: 5px solid #2978b5;
+        width: 100%;
+        height: 210px;
+        display: block;
+    }
+    .portImg{
+        padding-right: 10px;
+        margin-top:-10px;
+    }  
+    .project-name ~ span {
+        margin-left: 0px;
+    }
+    .portfolio_main_div{
+        display: block;
+    }
+    .media{
+        padding-left: 20px;
+    }
+    .portfolio .portfolio-item-inner{
+        width: 100%;
+    }
+    .project-name ~ span {
+        padding-left: 30px;
+    }
+
+}
+
+
+@media  (max-width: 500px) {
+    .EDUCATION .edu_cont{
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+  }
+@media (max-width:1199px){
+    .section .container
+    {
+        padding-top: 70px;
+    }
+    .aside
+    {
+        left: -270px;
+    }
+    .aside.open 
+    {
+        left: 0;
+    }
+    .aside .nav-toggler
+    {
+        display: flex;
+        left: 30px;
+    }
+    .aside .nav-toggler.open 
+    {
+        left: 300px;
+    }
+    .section
+    {
+        left: 0;
+        margin-left: 0px;
+    }
+    .section.open 
+    {
+        left: 270px;
+    }
+    .about .about-content .personal-info .info-item p span 
+    {
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (max-width:991px){
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .project-name ~ span {
+        margin-left: 0px;
+    }
+    .home .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+   
+    .home .home-img
+    {
+        /* display: none; */
+        margin: auto;
+        margin-top: 50px;
+        max-width: 100%;
+    }
+    .home-img::before{
+        border-top: none;
+        border-left: none;
+    }
+    .home-img::after{
+        border-bottom: none;
+        border-right: none;
+    }
+    #heroimgrevv{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home-img img{
+        object-fit: cover;
+        width: 100%
+    }
+    .portfolio_main_div{
+        display: block;
+    }
+    .portfolio .portfolio-item-inner{
+        width: 100%;
+    }
+    .portfolio .portfolio-item-inner .portfolio-img > img
+    {
+        margin: 20px 20px;
+        border: 5px solid #4572ba;
+        width: 91%;
+        display: block;
+    }
+    .media{
+        padding-left: 20px;
+    }
+    .project-name ~ span {
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+    .project-name ~ span > :nth-child(6) {
+        margin-right: 1px;
+    }
+}
+@media (max-width:767px){
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .eduupdate{
+        flex-direction: column;
+    }
+    .portImg{
+        padding-right: 20px;
+        margin-top: -5px;
+       
+    } 
+    .EDUCATION .edu_cont{
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .portfolio_main_div{
+        display: block;
+    }
+    .media{
+        padding-left: 20px;
+    }
+    .portfolio .portfolio-item-inner{
+        width: 100%;
+    }
+    .project-name ~ span {
+        padding-bottom: 30px;
+    }
+    .portfolio .portfolio-item-inner .portfolio-img > img
+    {
+        margin: 20px 10px;
+        border: 5px solid #4572ba;
+        width: 100%;
+        display: block;
+    } 
+}
+
+
+@media (max-width:555px) {
+    .about___info{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}   
+.adjus {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+   
+}
+}
+
+@media (max-width:565px) {
+    h3.hello span {
+        font-size: 32px;
+        height: 160px;
+    }
+}
+
+
