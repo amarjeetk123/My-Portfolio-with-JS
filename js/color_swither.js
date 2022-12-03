@@ -5,12 +5,14 @@ styleSwitcherToggle.addEventListener("click", () => {
 })
 
 // hide style - switcher on scroll
-// window.addEventListener("scroll", () => {
-//     if(document.querySelector(".style-switcher").classList.contains("open"))
-//     {
-//         document.querySelector(".style-switcher").classList.remove("open");
-//     }
-// })
+window.addEventListener("scroll", () => {
+    if(document.querySelector(".style-switcher").classList.contains("open"))
+    {
+        document.querySelector(".style-switcher").classList.remove("open");
+    }
+})
+
+
 /* ========================== theme colors =========================== */
 const alternateStyles = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color)
@@ -26,6 +28,8 @@ function setActiveStyle(color)
         }
     })
 }
+
+
 /* ========================== theme light and dark mode =========================== */
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
