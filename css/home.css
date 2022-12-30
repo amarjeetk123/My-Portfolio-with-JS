@@ -191,7 +191,6 @@ body{
 /* home */
 .home
 {
-    min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 }
@@ -218,6 +217,10 @@ h3.my-profession
     font-size: 30px;
     margin: 15px 0;
 }
+ .home-info .introdu{
+    font-size: 22px;
+
+     }
 .typing
 {
     color: var(--skin-color);
@@ -245,8 +248,8 @@ h3.my-profession
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    right: 2px;
+    bottom: 60px;
 }
 .home-img::before
 {
@@ -269,11 +272,13 @@ h3.my-profession
 .home__icon_cont {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    margin: 20px 0px;
 
 }
 .home__icon_cont i {
     color: var(--skin-color);
-    font-size: 28px;
+    font-size: 48px;
     margin-top: 10px;
     margin-bottom: 20px;
     margin-right: 17px;
@@ -281,8 +286,7 @@ h3.my-profession
 }
 .home__icon_cont i:hover {
     
-    transform: scale(1.4);
-    color:fuchsia;
+    transform: scale(1.2);
     transition-duration: 2s;
 }
 
@@ -448,7 +452,7 @@ body::-webkit-scrollbar-track {
 
  
 
-  @media (max-width:1199px)
+    @media (max-width:1199px)
   {
       .section .container
       {
@@ -486,9 +490,10 @@ body::-webkit-scrollbar-track {
           margin-left: 0;
       }
   }
+
   @media (max-width:991px)
   {
-      .contact .contact-info-item,
+      .contact-info-item,
       .portfolio .portfolio-item
       {
           flex: 0 0 50%;
@@ -497,35 +502,23 @@ body::-webkit-scrollbar-track {
       .project-name ~ span {
           margin-left: 0px;
       }
+      .home{
+        margin-top: -70px;
+      }
       .home .home-info
       {
           flex: 0 0 100%;
           max-width: 100%;
       }
      
-      .home .home-img
-      {
-          /* display: none; */
-          margin: auto;
-          margin-top: 50px;
-          max-width: 100%;
-      }
-      .home-img::before{
-          border-top: none;
-          border-left: none;
-      }
-      .home-img::after{
-          border-bottom: none;
-          border-right: none;
-      }
       #heroimgrevv{
           display: flex;
           flex-direction: column-reverse;
       }
-      .home-img img{
-          object-fit: cover;
-          width: 100%
+      .rsm-btn{
+        margin-bottom: 30px;
       }
+    
       .portfolio_main_div{
           display: block;
       }
@@ -554,7 +547,7 @@ body::-webkit-scrollbar-track {
   @media (max-width:767px)
   {
       .contact .contact-form .col-6,
-      .contact .contact-info-item,
+      
       .portfolio .portfolio-item,
       .service .service-item,
       .about .about-content .experience,

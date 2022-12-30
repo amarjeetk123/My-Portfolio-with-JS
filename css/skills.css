@@ -6,8 +6,8 @@
 }
 .service .service-item
 {
-    margin-bottom: 25px;
     flex: 0 0 33.33%;
+    margin: 0px auto 25px;
 }
 
 .service .service-item .service-item-inner
@@ -74,6 +74,7 @@
     .service .service-item
     {
         flex: 0 0 50%;
+        
     }
 }
 @media (max-width:600px) {
