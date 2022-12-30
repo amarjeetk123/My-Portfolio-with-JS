@@ -22,28 +22,57 @@
 .about .about-content .about-text p
 {
     color: var(--text-black-900);
-    font-size: 18px;
+    font-size: 22px;
     line-height: 25px;
 }
 .about .about-content .personal-info
 {
     flex: 0 0 60%;
-    max-width: 60%;
+    max-width: 70%;
     margin-top: 40px;
 }
-.about .about-content .personal-info .info-item
-{
-    flex: 0 0 50%;
-    max-width: 50%;
+
+.about .about-content .personal-info{
+    width: 100%;
+}
+.about___info{
+    justify-content: space-between;
+}
+.addres{
+    margin-right: 105px;
 }
 .about .about-content .personal-info .info-item p
 {
+    
     font-weight: 600;
     padding: 10px 0;
-    font-size: 14px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
-    font-size: 16px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.second-last{
+    text-align: center;
+    font-size: 22px; 
+    padding-top: 40px;
+   
+}
+@media screen and (max-width:1150px) {
+    .second-last{
+        padding-bottom: 30px;
+       padding-top: 40px;
+
+    }
+    
+}
+
+@media screen and (max-width:620px) {
+    .about___info{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
 }
 .introdu{
     margin-bottom: 10px;
@@ -80,7 +109,9 @@
     grid-gap: 20px;
 
 }
-
+.heart-icon{
+    color: var(--skin-color);
+}
 
 
 .about .about-content .skills
