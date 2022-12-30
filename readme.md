@@ -9,7 +9,7 @@
 ### Technology Used
   - ` HTML `
   - ` CSS `
-  - ` JavaScript`
+  - ` JavaScript `
 
 Live Link:- [Click Here!](https://amarjeet-portfolio.netlify.app/)
 
