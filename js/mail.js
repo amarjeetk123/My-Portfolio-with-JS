@@ -37,20 +37,20 @@ function SendMSG(e) {
   }
   
   function success() {
-    let thank = document.querySelector(".msg-pop-up")
+    let sucsess = document.querySelector(".sucsess-msg")
    
-    thank.style.display = "block"
+    sucsess.style.display = "block"
     setTimeout(() => {
-      thank.style.display = "none"
-    }, 1000)
+      sucsess.style.display = "none"
+    }, 2000)
   }
   
   function failure() {
-    let fail = document.querySelector(".failed-msgpop")
+    let fail = document.querySelector(".failed-msg")
     fail.style.display = "block"
     setTimeout(() => {
       fail.style.display = "none"
-    }, 1000)
+    }, 2000)
   }
   
   // d9edf392-bffd-4fa3-9d98-b2566146073d => token1

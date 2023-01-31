@@ -38,6 +38,28 @@ body{
 }
 
 
+.sucsess-msg  , .failed-msg{
+    font-weight: 700;
+    font-size: 19px;
+    padding: 1.5%;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    z-index: 1000;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+.sucsess-msg{
+    background-color: #37b182;
+    box-shadow: 5px 5px 5px rgba(48, 46, 77, 0.15);
+}
+.failed-msg{
+    background-color: #ec1839;
+}
+
+
 /* code for aside section is started from here  */
 
 .aside{
@@ -649,3 +671,9 @@ body::-webkit-scrollbar-track {
           height: 160px;
       }
   }
+  
+
+
+  #home{
+    height: 500px;
+}
