@@ -54,6 +54,7 @@
 .second-last{
     text-align: center;
     font-size: 22px; 
+    color: var(--text-black-900);
 }
 @media screen and (max-width:1150px) {
     .second-last{
