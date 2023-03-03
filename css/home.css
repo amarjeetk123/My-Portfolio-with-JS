@@ -215,6 +215,7 @@ body{
 {
     display: flex;
     color: var(--text-black-900);
+    
 }
 .home .home-info
 {
