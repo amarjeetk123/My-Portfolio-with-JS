@@ -89,7 +89,7 @@ Projects.forEach(pro => {
     </div>
     <div>
     <div class="portfolio-img media">
-      <h3 class="project-name"><b>${pro.name}</b></h3> <br/>
+      <h2 class="project-name"><b>${pro.name}</b></h2> <br/>
       <h4 class="project-about ">${pro.about}</h4>
       <a href=${pro.project_link} target="_blank" class="see-project">Live💻</a>
       <a href=${pro.gitrepo} target="_blank" class="github-repo">GitHub</a>

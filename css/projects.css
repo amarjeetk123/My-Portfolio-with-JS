@@ -6,7 +6,6 @@
 {
     flex: 0 0 100%;
     max-width: 100%;
-    
     margin-bottom: 40px;
 }
 .portfolio .portfolio-heading h2
@@ -17,12 +16,7 @@
 .portfolio .portfolio-item
 {
     flex: 1  ;
-   
     max-width: 100%;
-    /* display:grid;
-    grid-template-columns:repeat(2,1fr); */
-    /* display:grid;
-    grid-template-columns: repeat(2,45%); */
     margin-bottom: 40px;
 }
 .portfolio .portfolio-item-inner
@@ -79,3 +73,83 @@
     }
 
 }
+.project-about{
+    font-size: 16px;
+    padding: 0px 30px 20px 5px;
+    font-weight: 400;
+    margin: 10px 0;
+    color: var(--text-black-950);
+    text-align: justify; 
+    margin-top: -12px;
+}
+
+.project-name{
+
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 25px ;
+    margin-right: 20px;
+    margin-left:5px;
+    color: var(--text-black-950);
+    text-align: left;
+    color:#2978b5;
+}
+
+.project-name ~ span {
+    margin-left: -30px;
+}
+.project-name ~ span > img{
+     margin-left:-3px
+}
+
+.see-project{
+    color: var(--text-black-950);
+    /* border :1px solid var(--text-black-900); */
+    border: 3px solid #4572ba;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+
+}
+.github-repo:hover,
+.github-repo:focus,
+.see-project:hover,
+.see-project:focus {
+  color: var(--clr-bg);
+  color: white;
+
+}
+.github-repo:before,
+.see-project:before {
+    content: "";
+    position: absolute;
+    background-color: #2978b5;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: right 0.4s ease-in-out;
+}
+.github-repo:hover:before,
+.github-repofocus:before,
+.see-project:hover:before,
+.see-project:focus:before {
+  right: 0;
+}
+.github-repo{
+    color: var(--text-black-950);
+    /* border :1px solid var(--text-black-900); */
+    border: 3px solid #4572ba;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
