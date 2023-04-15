@@ -15,26 +15,21 @@ const Projects = [
         project_link : "https://amarjeet-writeme.vercel.app/",
         project_type : "Individual Project"
     },
-    // {
-    //     name : "Clone of CoSchedule.com",
-    //     about : " CoSchedule is an all-in-one platform for planning, organizing, and executing all things content marketing. It's easy to use drag-and-drop calendar interface makes it easy to collaborate and schedule all your projects in one place.",
-    //     img : "./images/CoSchedule.png",
-    //     gitrepo : "https://github.com/Goluchandan/Coschedule-Clone",
-    //     // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
-    //     tech_stack : "HTML | CSS | JAVASCRIPT | React | Redux | Nodejs",
-    //     tech_stackicons : [
-    //         `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-    //         `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-    //         `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-    //         `<img src="https://img.icons8.com/color/50/000000/react-native.png"/>`,
-    //         `<img src="https://img.icons8.com/color/48/000000/redux.png"/>`,
-    //         `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
-    //         `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
-    //         `<img src="https://img.icons8.com/color/48/000000/express.png"/>`
-    //     ],
-    //     project_link : "https://coschedule-web.netlify.app/",
-    //     project_type : "Individual Project"
-    // },
+    {
+        name : "Clone of Rode.com",
+        about : "",
+        img : "./images/CoSchedule.png",
+        gitrepo : "https://github.com/amarjeetk123/Rode.com-Clone-project-03-Tailwind-CSS",
+        // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
+        tech_stack : "HTML | Tailwind CSS",
+        tech_stackicons : [
+            `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+            `<img src="https://img.icons8.com/color/50/000000/tailwindcss.png"/>`,
+           
+        ],
+        project_link : "https://rode-headphones-home-page-clone.netlify.app/",
+        project_type : "Individual Project"
+    },
     // {
     //     name : "Clone of IdeaKart.com",
     //     about : " Ideakart is a site that gives u an idea about the book you want to buy. We offer a huge collection of books in diverse categories. And we even provide best discounts on our books. You can write to us for any idea or any help you need.",
