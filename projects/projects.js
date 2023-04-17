@@ -30,43 +30,7 @@ const Projects = [
         project_link : "https://rode-headphones-home-page-clone.netlify.app/",
         project_type : "Individual Project"
     },
-    // {
-    //     name : "Clone of IdeaKart.com",
-    //     about : " Ideakart is a site that gives u an idea about the book you want to buy. We offer a huge collection of books in diverse categories. And we even provide best discounts on our books. You can write to us for any idea or any help you need.",
-    //     img : "./images/IdeaKart_React.png",
-    //     gitrepo : "https://github.com/Goluchandan/Ideakart-clone",
-    //     // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
-    //     tech_stack : "HTML | CSS | JAVASCRIPT | React | Redux | Nodejs",
-    //     tech_stackicons : [
-    //         `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-    //         `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-    //         `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-    //         `<img src="https://img.icons8.com/color/50/000000/react-native.png"/>`,
-    //         `<img src="https://img.icons8.com/color/48/000000/redux.png"/>`,
-    //         `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`,
-    //         // `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
-    //         // `<img src="https://img.icons8.com/color/48/000000/express.png"/>`
-    //     ],
-    //     project_link : "https://stupendous-cajeta-bbcb82.netlify.app/",
-    //     project_type : "Individual Project"
-    // },
-    // {
-    //     name : "Clone of Lybrate.com",
-    //     about : "Lybrate is the best way to seek medical help. To make it seamless and smooth, we beat onerous challenges every day to ensure easy access to doctors for billion people, creating an experience that is truly magical for both healthcare experts and users.",
-    //     img : "./images/Lybrate.png",
-    //     gitrepo : "https://github.com/Goluchandan/lybrate",
-    //     blog : "https://medium.com/@vdbhavani.648/specsmakers-clone-8e0434e3ed0e",
-    //     tech_stack : "HTML | CSS | JAVASCRIPT | API | JSON-SERVER",
-    //     tech_stackicons : [
-    //     `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
-    //     `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
-    //     `<img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>`,
-    //     `<img src="https://img.icons8.com/nolan/64/api-settings.png" width="48px"/>`,
-    //     `<img src="https://img.icons8.com/windows/48/000000/node-js.png"/>`
-    //     ],
-    //     project_link : "https://lybrate-clone.netlify.app/",
-    //     project_type : "Individual Project"
-    // }
+    
 
  
 ]
