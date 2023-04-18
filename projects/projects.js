@@ -31,7 +31,7 @@ const Projects = [
         project_type : "Individual Project"
     },
     
-
+   
  
 ]
 
