@@ -2,7 +2,7 @@ const Projects = [
     {
         name : "Blog and Article Written Website",
         about : "It a live website where anybody from anywhere can write a blog or artice on any topic and later on can update and delete that article",
-        img : "./images/ToggleTrack.png",
+        img : "./images/blog.png",
         gitrepo : "https://github.com/amarjeetk123/Blog-Website",
         // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
         tech_stack : " React  | Nodejs | MongoDB | Express ",
@@ -18,7 +18,7 @@ const Projects = [
     {
         name : "Clone of Rode.com",
         about : "",
-        img : "./images/CoSchedule.png",
+        img : "./images/blog.png",
         gitrepo : "https://github.com/amarjeetk123/Rode.com-Clone-project-03-Tailwind-CSS",
         // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
         tech_stack : "HTML | Tailwind CSS",
