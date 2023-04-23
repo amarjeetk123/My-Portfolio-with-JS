@@ -2,7 +2,7 @@ const Projects = [
     {
         name : "Blog and Article Written Website",
         about : "It a live website where anybody from anywhere can write a blog or artice on any topic and later on can update and delete that article",
-        img : "./images/blog.png",
+        img : "images/blog.png",
         gitrepo : "https://github.com/amarjeetk123/Blog-Website",
         // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
         tech_stack : " React  | Nodejs | MongoDB | Express ",
@@ -18,12 +18,13 @@ const Projects = [
     {
         name : "Clone of Rode.com",
         about : "",
-        img : "./images/blog.png",
+        // img : "./images/blog.png",
         gitrepo : "https://github.com/amarjeetk123/Rode.com-Clone-project-03-Tailwind-CSS",
         // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
         tech_stack : "HTML | Tailwind CSS",
         tech_stackicons : [
             `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+            `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
             `<img src="https://img.icons8.com/color/50/000000/tailwindcss.png"/>`,
            
         ],
@@ -74,4 +75,4 @@ Projects.forEach(pro => {
     `
     projects__container.append(main)
 
-})
+}) 
