@@ -1,7 +1,7 @@
 const Projects = [
     {
         name : "Blog and Article Written Website",
-        about : "It a live website where anybody from anywhere can write a blog or artice on any topic and later on can update and delete that article",
+        about : "It a live website where anybody from anywhere can write a blog or artice on any topic and later on can update and delete that article.",
         img : "images/blog.png",
         gitrepo : "https://github.com/amarjeetk123/Blog-Website",
         // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
@@ -17,8 +17,8 @@ const Projects = [
     },
     {
         name : "Clone of Rode.com",
-        about : "",
-        // img : "./images/blog.png",
+        about : "This is a home page clone of Rode Headphones Website and it is fully responsive. Mostly I have used Tailwind CSS for making it responsive.",
+        img : "./images/rode.png",
         gitrepo : "https://github.com/amarjeetk123/Rode.com-Clone-project-03-Tailwind-CSS",
         // blog : "https://medium.com/@vdbhavani.648/agoda-clone-eb28c930815e",
         tech_stack : "HTML | Tailwind CSS",
