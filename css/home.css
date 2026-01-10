@@ -313,12 +313,9 @@ h3.my-profession
     transition-duration: 2s;
 }
 
-
-
-
 .section{
     background: var(--bg-black-900);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: block;
     padding: 0 30px;
     opacity: 1;
@@ -327,13 +324,10 @@ h3.my-profession
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.3s ease;
-    margin-top: 30px;
+    /* margin-top: 30px; */
    
 }
-/* .section.back-section
-{
-    z-index: 1;
-} */
+
 .section.active
 {
     z-index: 2;
@@ -458,7 +452,7 @@ h3.my-profession
 
 .special{
     padding-top: 100px;
- 
+    padding-bottom: 30px;
 }
 
 body::-webkit-scrollbar {

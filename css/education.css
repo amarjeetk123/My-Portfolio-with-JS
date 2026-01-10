@@ -1,7 +1,4 @@
 
-.margtop {
-    margin-top: 30px;
-}
 .EDUCATION {
     background-color: var(--bg-black-100);
     padding:20px 25px;
@@ -21,7 +18,7 @@
 }
 
 #mystyleimage{
-    margin-left: 35px;
+    /* margin-left: 35px; */
     /* margin-top:80px;
     height: 350px;
     width: 100%;
