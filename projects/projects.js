@@ -12,7 +12,7 @@ const Projects = [
             `<img src="https://img.icons8.com/color/48/000000/mongodb.png"/>`,
             `<img src="https://img.icons8.com/color/48/000000/express.png"/>`
         ],
-        project_link : "https://amarjeet-writeme.vercel.app/",
+        project_link : "https://blog-website-git-master-amarjeetk123s-projects.vercel.app/",
         project_type : "Individual Project"
     },
     {
