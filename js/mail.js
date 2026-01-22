@@ -18,7 +18,7 @@ function SendMSG(e) {
     return alert("Please Fill Complete Details!!")
   }
 
-  emailjs.send('service_s7is795', 'template_b6yq4gz', temp)
+  emailjs.send('service_qf71jnv', 'template_b6yq4gz', temp)
     .then((res) => {
       if (res.status == 200) {
         success()
