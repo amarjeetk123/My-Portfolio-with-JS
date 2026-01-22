@@ -10,10 +10,11 @@
   - ` CSS `
   - ` JavaScript `
 
-Live Link:- [Click Here!](https://amarjeet.xyz)
+Live Link:- [Click Here!](https://amarjeet-portfolio.netlify.app/)
 
 ![](./images/1st.png)
 ![](./images/2nd.png)
 ![](./images/3rd.png)
 ![](./images/4th.png)
+
 
